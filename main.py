@@ -5,8 +5,9 @@ from datetime import datetime
 class AgeCalculator(QWidget):
     def __init__(self):
         super().__init__()
-        grid = QGridLayout()
         self.setWindowTitle("Age Calculator")
+        grid = QGridLayout()
+        
 
         # Create widgets
         name_label = QLabel("Name")
